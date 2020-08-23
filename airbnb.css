@@ -31,20 +31,40 @@ font-weight:18;
 
 }
 
+/*#level-2{
+	background-color:white;
+	text-align:center;
+width: 40%;
+padding:10px 10px;
+padding-left:30px;
+}
+	
 
+#mainbox{
+	padding:50px 50px;
+}
 
+#header{
+	text-align:left;
+}*/
 
+body{
+	font-family: "Lexend Deca", sans-serif;
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
+#level-2{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	border-radius: 5px;
+background: #fff;
+box-shadow: 2px 2px 10px #555;
+max-width:40%;
+padding: 10px 10px;
+padding-left:30px;
+}
+#mainbox{
+	padding:50px 50px;
+}
 
