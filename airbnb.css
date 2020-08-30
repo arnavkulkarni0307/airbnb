@@ -29,15 +29,10 @@ padding:10px 10px;
 font-size:50px;
 font-weight:18;
 
+
 }
 
-/*#level-2{
-	background-color:white;
-	text-align:center;
-width: 40%;
-padding:10px 10px;
-padding-left:30px;
-}
+
 	
 
 #mainbox{
@@ -46,7 +41,7 @@ padding-left:30px;
 
 #header{
 	text-align:left;
-}*/
+}
 
 body{
 	font-family: "Lexend Deca", sans-serif;
@@ -58,13 +53,65 @@ body{
 	flex-direction:column;
 	justify-content:space-between;
 	border-radius: 5px;
-background: #fff;
+background-color: white;
 box-shadow: 2px 2px 10px #555;
 max-width:40%;
 padding: 10px 10px;
 padding-left:30px;
+
 }
 #mainbox{
 	padding:50px 50px;
 }
+
+#header{color:blue;
+
+font-weight:700;
+}
+label{
+	font-size:20px;
+	font-weight:600;
+}
+#Where{
+	width:100%;
+margin-right:35px;
+
+}
+#able{
+	width: 100%;
+margin-right:35px;
+}
+#Guests{
+	width:50px;
+
+margin-right:35px;}
+
+
+
+
+#search{
+	float: right;
+	height:50px;
+	width:150px;
+background-color: #ff5a5f;
+color: white;
+margin-top:20px;
+border:none;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
 
