@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head> <link rel="stylesheet" type="text/css" href="airbnb.css">
+	<script type="text/javascript" src="airbnb.js"></script>
 	<title>AIRBNB
 	</title>
 </head>
@@ -16,7 +17,38 @@
 <div id="level-2">
 	<h1 id="header"> Book unique places to stay and things to do.</h1>
 <div id="form"> <label> Where</label><br><input id="Where" type="text" name="Where"> 
- <input type="date" name="check in">
+ <br><table id="able"><tr><td><label>check in</label>
+ </td>
+ <td><label> Check Out</label></td>
+</tr>
+<tr> <td>
+	<input id="checkin"type="date" name="Check in">
+</td>
+<td> <input id="checkout" type="date" name="Check Out"></td>
+</tr>
+
+</table>
+ 
+ 
+ <br><label id="guest"> Guests</label><br>
+<select id="Guests">
+<option>1</option>
+<option>2</option>
+ <option>3</option>
+  <option>4</option>
+ <option>5</option>
+ <option>6</option>
+ <option>7</option> 
+ <option>8</option>
+ <option>9</option>
+ <option>10</option>
+</select>
+<br>
+<input type="button" value="SEARCH" id="search" onclick="search()">
+
+
+
+
  </div>
 
 
